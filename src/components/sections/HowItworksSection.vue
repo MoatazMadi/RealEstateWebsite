@@ -1,7 +1,7 @@
 <template>
     <main class="container grid grid-cols-1 gap-20 px-2  md:grid-cols-2 justify-items-center py-20 lg:py-32">
         <div class="">
-            <img src="/imgs/section3.png" class="h-full w-full object-contain" />
+            <img src="/imgs/section3.png" class="h-full w-full object-contain" loading="lazy" />
         </div>
         <div class="">
             <h2 class="text-xl md:text-3xl lg:text-4xl  font-semibold">How It works?</h2>
@@ -65,7 +65,6 @@
 
 <style scoped>
 @reference "tailwindcss";
-
 .card {
     @apply flex gap-3 items-start relative;
 }

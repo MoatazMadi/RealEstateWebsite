@@ -1,5 +1,5 @@
 <template>
-    <div class="p-4 h-[446px] min-w-80  bg-auto bg-center bg-no-repeat rounded-2xl flex flex-col justify-between"
+    <div class="p-4 h-[446px] min-w-80  bg-cover bg-center bg-no-repeat rounded-2xl flex flex-col justify-between"
         :style="{ backgroundImage: 'url(' + image + ')' }">
         <div class="flex justify-start gap-4">
             <span v-if="forSale" class="button forsale">for sale</span>

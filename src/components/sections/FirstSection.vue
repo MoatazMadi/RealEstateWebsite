@@ -16,10 +16,10 @@ new home." icon="trustedbythousands" />
     <MainSectionTitle title="Featured Properties"
       sub-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
     <section>
-      <div class="flex justify-center items-center  gap-12 my-12 text-lg">
-        <button :class="[filter == null ? 'button' : '']" @click="all">All Properties</button>
-        <button :class="[filter == 'forSale' ? 'button' : '']" @click="forsale">For Sale</button>
-        <button :class="[filter == 'forRent' ? 'button' : '']" @click="forRent">For Rent</button>
+      <div class="flex justify-center items-center  gap-6 md:gap-12 my-12 text-lg">
+        <button :class="['text-sm' , filter == null ? 'button-filter' : '' ] " @click="all">All Properties</button>
+        <button :class="['text-sm' , filter == 'forSale' ? 'button-filter' : '']" @click="forsale">For Sale</button>
+        <button :class="['text-sm' , filter == 'forRent' ? 'button-filter' : '']" @click="forRent">For Rent</button>
       </div>
       <div v-if="properties.length > 0"
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center md:justify-items-normal">
@@ -75,7 +75,7 @@ const filter = ref(null);
 
 const forRent = () => {
   filter.value = "forRent";
-  properties.value = data.value.filter((prop) => prop.forRent).slice(0,6);
+  properties.value = data.value.filter((prop) => prop.forRent).slice(0, 6);
 
 };
 
@@ -94,3 +94,11 @@ const showAll = () => {
   properties.value = data.value;
 };
 </script>
+
+<style scoped>
+@reference "tailwindcss";
+
+.button-filter {
+  @apply rounded-full border uppercase py-1 px-5 hover:bg-white/95 transition-all
+}
+</style>

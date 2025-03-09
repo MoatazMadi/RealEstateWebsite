@@ -12,6 +12,8 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
+  base: '/RealEstateWebsite/', 
+  
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

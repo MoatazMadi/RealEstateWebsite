@@ -5,7 +5,7 @@
     class="h-screen relative bg-center bg-cover bg-no-repeat text-[#1F4B43]"
   >
     <img
-      loading="lazy"
+     
       src="/imgs/hero.jpg"
       alt="hero image"
       class="w-full -z-10 h-full object-cover absolute top-0"
