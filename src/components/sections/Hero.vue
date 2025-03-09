@@ -3,10 +3,6 @@
 
   <main
     class="h-screen relative bg-center bg-cover bg-no-repeat text-[#1F4B43]"
-    style="
-      font-family: 'Roboto' Roboto;
-      /* background-image: url('/imgs/hero.jpg') easy-load  */
-    "
   >
     <img
       loading="lazy"
@@ -16,11 +12,11 @@
     />
 
     <div
-      class="mx-auto flex flex-col pt-48 justify-center items-center max-w-[800px] px-3"
+      class="mx-auto flex flex-col pt-48 justify-center items-center container"
     >
       <a
         href="#"
-        class="rounded-full border uppercase py-1 px-3 sm:px-6 text-xs sm:text-sm hover:bg-white/95 transition-all"
+        class="button"
       >
         let us guide your home
       </a>
@@ -34,14 +30,18 @@
         Search properties for sale and to rent in the UK
       </p>
 
-      <div
-        class="mt-8 bg-white p-1 pl-5 rounded-full w-full items-center flex justify-between"
+      <form 
+        class="mt-8 bg-white p-1 pl-5 rounded-full w-full items-center flex justify-between max-w-[1024px] cursor-text"
+        @click="$refs.inputField.focus()"
       >
         <input
           type="text"
           class="flex-1 border-none ring-0 outline-0 h-full text-sm sm:text-base"
           placeholder="Enter Name, Keywords..."
           maxlength="255"
+          required
+          ref="inputField"
+
         />
         <button
           class="bg-[#E7C873] rounded-full p-2 sm:p-3 md:p-4 cursor-pointer hover:bg-[#f5dd9c] transition-all"
@@ -61,7 +61,7 @@
             />
           </svg>
         </button>
-      </div>
+      </form>
 
       <p
         class="mt-12 text-white bg-white/5 backdrop-blur-sm rounded-full px-3 text-base"
