@@ -8,7 +8,7 @@
         "number": 400,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p1-500x500.jpg"
+        "image": "/realestatewebsite/imgs/properties/p1-500x500.jpg"
     },
     {
         "title": "Skyper Pool Apartment",
@@ -18,7 +18,7 @@
         "shower": "2",
         "number": 450,
         "forSale": true,
-        "image": "/RealEstateWebsite/imgs/properties/p13-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p13-500x500.png"
     },
     {
         "title": "North Dillard Street",
@@ -28,7 +28,7 @@
         "shower": "2",
         "number": 400,
         "forRent": true,
-        "image": "/RealEstateWebsite/imgs/properties/p15-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p15-500x500.png"
     },
     {
         "title": "Eaton Garth Penthouse",
@@ -39,7 +39,7 @@
         "number": 450,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p16-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p16-500x500.png"
     },
     {
         "title": "New Apartment Nice View",
@@ -50,7 +50,7 @@
         "number": 460,
         "forRent": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p17-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p17-500x500.png"
     },
     {
         "title": "Diamond Manor Apartment",
@@ -61,7 +61,7 @@
         "number": 500,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p18-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p18-500x500.png"
     },
     {
         "title": "Sunset Beach Villa",
@@ -72,7 +72,7 @@
         "number": 510,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p15-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p15-500x500.png"
     },
     {
         "title": "Green Hills Mansion",
@@ -82,7 +82,7 @@
         "shower": "4",
         "number": 520,
         "forSale": true,
-        "image": "/RealEstateWebsite/imgs/properties/p13-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p13-500x500.png"
     },
     {
         "title": "Lakeview Condo",
@@ -93,7 +93,7 @@
         "number": 530,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p1-500x500.jpg"
+        "image": "/realestatewebsite/imgs/properties/p1-500x500.jpg"
     },
     {
         "title": "Modern Downtown Loft",
@@ -103,7 +103,7 @@
         "shower": "2",
         "number": 540,
         "forRent": true,
-        "image": "/RealEstateWebsite/imgs/properties/p18-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p18-500x500.png"
     },
     {
         "title": "Country Cottage",
@@ -114,7 +114,7 @@
         "number": 550,
         "forSale": true,
         "featured": true,
-        "image": "/RealEstateWebsite/imgs/properties/p17-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p17-500x500.png"
     },
     {
         "title": "Urban Studio Apartment",
@@ -124,6 +124,6 @@
         "shower": "1",
         "number": 560,
         "forRent": true,
-        "image": "/RealEstateWebsite/imgs/properties/p16-500x500.png"
+        "image": "/realestatewebsite/imgs/properties/p16-500x500.png"
     }
 ]
