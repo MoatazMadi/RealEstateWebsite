@@ -32,26 +32,26 @@
 
 <script setup>
 import { ref } from 'vue';
-import MainSectionTitle from '../MainSectionTitle.vue';
+import MainSectionTitle from '@/components/MainSectionTitle.vue';
 
 const data = ref([
     {
-        img: "/imgs/ourTeam/johnpowell.png",
+        img: "/realestatewebsite/imgs/ourTeam/johnpowell.png",
         name: "john powell",
         job: "service support"
     },
     {
-        img: "/imgs/ourTeam/thomasdesil.png",
+        img: "/realestatewebsite/imgs/ourTeam/thomasdesil.png",
         name: "thomas desil",
         job: "marketing"
     },
     {
-        img: "/imgs/ourTeam/tomwilson.png",
+        img: "/realestatewebsite/imgs/ourTeam/tomwilson.png",
          name: "tom wilson",
         job: "designer"
     },
     {
-        img: "/imgs/ourTeam/samuelpalmer.png",
+        img: "/realestatewebsite/imgs/ourTeam/samuelpalmer.png",
          name: "samuel palmer",
         job: "marketing"
     },
