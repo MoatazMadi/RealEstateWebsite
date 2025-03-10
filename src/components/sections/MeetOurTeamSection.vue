@@ -36,22 +36,22 @@ import MainSectionTitle from '@/components/MainSectionTitle.vue';
 
 const data = ref([
     {
-        img: "/realestatewebsite/imgs/ourTeam/johnpowell.png",
+        img: "/RealEstateWebsite/imgs/ourTeam/johnpowell.png",
         name: "john powell",
         job: "service support"
     },
     {
-        img: "/realestatewebsite/imgs/ourTeam/thomasdesil.png",
+        img: "/RealEstateWebsite/imgs/ourTeam/thomasdesil.png",
         name: "thomas desil",
         job: "marketing"
     },
     {
-        img: "/realestatewebsite/imgs/ourTeam/tomwilson.png",
+        img: "/RealEstateWebsite/imgs/ourTeam/tomwilson.png",
          name: "tom wilson",
         job: "designer"
     },
     {
-        img: "/realestatewebsite/imgs/ourTeam/samuelpalmer.png",
+        img: "/RealEstateWebsite/imgs/ourTeam/samuelpalmer.png",
          name: "samuel palmer",
         job: "marketing"
     },

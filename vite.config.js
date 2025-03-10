@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  base: '/realestatewebsite/', 
+  base: '/RealEstateWebsite/', 
   
   resolve: {
     alias: {

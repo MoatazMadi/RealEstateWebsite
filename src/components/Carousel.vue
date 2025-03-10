@@ -36,7 +36,7 @@ const data = ref(null);
 
 const getProperties = async () => {
     try {
-        const res = await fetch("/realestatewebsite/data/Properties.json");
+        const res = await fetch("/RealEstateWebsite/data/Properties.json");
         return await res.json();
     } catch (err) {
         console.log("Properties data not accessible", err);
